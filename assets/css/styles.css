@@ -9,10 +9,7 @@
 
 body{
     background-color: rgb(48, 48, 48);
-}
-
-.img1{
-    width: 100%;
+    overflow-x: hidden;
 }
 
 li, a, button{
@@ -22,6 +19,8 @@ li, a, button{
     text-decoration: none;
 }
 
+/* Header */
+
 .header{
     position: fixed;
     display: flex;
@@ -30,6 +29,10 @@ li, a, button{
     padding: 10px 2%;
     z-index: 15;
 
+}
+
+.logo{
+    width: 20%;
 }
 
 .nav_links{
@@ -45,32 +48,32 @@ li, a, button{
     color: rgb(255, 111, 0);
 }
 
-.logo{
-    width: 20%;
-}
-
 .logoc{
     width: 80px;
     float: right;
     padding-right: 40px;
 }
 
+.img1{
+    width: 100%;
+}
+
 .content h1{
     color: white;
-    padding: 20px;
+}
+
+.content-games{
+    display: flex;
+    width: 100%;
 }
 
 .games{
-    display: table;
-    align-items: center;
-    margin: auto;
+    padding: 4%;
 }
 
 .covers{
     width: 290px;
     border-radius: 10px;
-    margin-left: 4%;
-    margin-right: 3%;
 }
 
 .covers:hover{
@@ -79,93 +82,18 @@ li, a, button{
 	transform: scale(1.05);
 }
 
-.texto1{
+.texto{
     color: white;
-    padding-top:0%;
-    padding-left:4.5%;
-    padding-right: 2.5%;
-    display:block;
-    float:left;
-}
-
-.texto2{
-    color: white;
-    padding-top:0%;
-    padding-left:8%;
-    padding-right: 11.5%;
-    display:block;
-    float:left;
-}
-
-.texto3{
-    color: white;
-    padding-top:0%;
-    padding-left:8%;
-    padding-right: 5.5%;
-    display:block;
-    float:left;
-}
-
-.texto4{
-    color: white;
-    padding-top:0%;
-    padding-left:4.5%;
-    padding-right: 9.5%;
-    display:block;
-    float:left;
-}
-
-.texto5{
-    color: white;
-    padding-top:0%;
-    padding-left:8%;
-    padding-right: 11%;
-    display:block;
-    float:left;
-}
-
-.texto6{
-    color: white;
-    padding-top:0%;
-    padding-left:8%;
-    padding-right: 11%;
-    display:block;
-    float:left;
-}
-
-.texto7{
-    color: white;
-    padding-top:0%;
-    padding-left:4.5%;
-    padding-right: 3%;
-    display:block;
-    float:left;
-}
-
-.texto8{
-    color: white;
-    padding-top:0%;
-    padding-left:8%;
-    padding-right: 7%;
-    display:block;
-    float:left;
-}
-
-.texto9{
-    color: white;
-    padding-top:0%;
-    padding-left:8%;
-    padding-right: 1.5%;
-    display:block;
-    float:left;
+    display: block;
+    float: left;
 }
 
 .precio{
     color: rgb(255, 111, 0);
     font-size: 20px;
     padding-top:0%;
-    display:block;
-    float:left;
+    display: block;
+    float: right;
 }
 
 .footer{
